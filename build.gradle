@@ -20,6 +20,11 @@ allprojects {
         google()
         jcenter()
     }
+    ext {
+        androidSupportVersion = "27.1.1"
+//        firebaseVersion = "16.0.3"
+//        retrofit2Version = "2.4.0"
+    }
 }
 
 task clean(type: Delete) {
