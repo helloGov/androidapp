@@ -6,8 +6,18 @@
         <item name="colorPrimary">@color/yellow</item>
         <item name="colorPrimaryDark">@color/blue_light</item>
         <item name="colorAccent">@color/white</item>
-        <item name="secondaryColor">@color/dark_red</item>
-        <item name="secondaryAccent">@color/gray_light</item>
+        <!--<item name="secondaryColor">@color/dark_red</item>-->
+        <!--<item name="secondaryAccent">@color/gray_light</item>-->
+        <item name="actionBarStyle">@style/CustomActionBarTheme</item>
     </style>
+
+    <style name="CustomActionBarTheme" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/CustomTitleTextStyle</item>
+    </style>
+    
+    <style name="CustomTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/blue_light</item>
+    </style>
+
 
 </resources>

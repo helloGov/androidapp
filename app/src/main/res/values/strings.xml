@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">helloGOV</string>
+    <string name="create_campaign">Create Campaign</string>
 </resources>
