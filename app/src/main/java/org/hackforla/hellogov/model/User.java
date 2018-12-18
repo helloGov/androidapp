@@ -19,7 +19,8 @@ import android.support.annotation.NonNull;
 public class User {
 
     @PrimaryKey(autoGenerate = true)
-    private int id;
+    @ColumnInfo(name = "_id")
+    private int mId;
 
     @NonNull
     @ColumnInfo(name = "firstName")
