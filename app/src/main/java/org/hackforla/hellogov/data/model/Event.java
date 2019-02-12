@@ -6,7 +6,7 @@
  * Last modified 12/17/18 7:58 PM
  */
 
-package org.hackforla.hellogov.model;
+package org.hackforla.hellogov.data.model;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
